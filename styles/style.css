@@ -1,0 +1,188 @@
+body {
+
+	color: black;
+	font-family: 'Sansita', sans-serif;
+	margin: 0;
+	background-color: #ECD078;
+
+}
+
+a, a:visited, a:active {
+	color: black;
+	text-decoration: none;
+}
+
+#btn_menu {
+	margin-right: 15px;
+}
+
+#my_photo {
+	margin-right: 50px;
+	margin-left: 15px;
+	border: red 1px solid;
+	border-radius: 40%;
+}
+
+#navbar {
+	background-color: #542437;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+#ts {
+	width: 100%;
+}
+#b_contacts {
+}
+#s {
+	text-align: right;
+}
+
+#short_biography_bar {
+	padding-left: 50px;
+	padding-top: 47px;
+	background-color: #D95B43;
+}
+
+#short_biography {
+	font-size: 18px;
+}
+
+#name {
+	font-size: 35px;
+	vertical-align: bottom;
+}
+
+#content {
+	margin-top: 20px;
+	background-color: #ECD078;
+	text-align: center;
+	height: auto;
+}
+
+#portfolio_header {
+	font-size: 30px;
+}
+
+#portfolio_table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#description {
+	background-color: #D95B43;
+	height: auto;
+}
+
+#description_table {
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-spacing: 0 35px;
+	font-size: 18px;
+}
+
+#ex1, #ex2, #ex3, #ex4, #ex5 {
+	vertical-align: top;
+	padding-left: 5px;
+}
+
+#p_ex1, #p_ex2, #p_ex3, #p_ex4, #p_ex5 {
+	border: 1px solid;
+	border-radius: 3%;
+}
+
+#contacts {
+	text-align: center;
+	height: 90px;
+	background-color: #53777A;
+}
+
+#contacts_div {
+	vertical-align: middle;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.ex_header {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.lk_active {
+	text-decoration: underline;
+}
+
+a:hover {
+	color: white !important;
+}
+
+#dp_menu {
+	margin-left: auto;
+}
+
+#dp_slide {
+	margin-top: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+.menu a {
+	background: #542437;
+	padding: 10px;
+	display: block;
+	border: 1px solid #C02942;
+	transition: 0.5s all;
+}
+
+.side {
+	width: 120px;
+	height: 40px;
+}
+
+.menu a:hover {
+	background: #C02942;
+	padding: 10px 0 10px 15px;
+}
+
+.menu__list {
+	position: relative;
+}
+
+.menu__drop {
+	position: absolute;
+	width: 100%;
+	left: -50%;
+	opacity: 0;
+	top: -9999px;
+}
+
+.menu__list:hover .menu__drop {
+	opacity: 1;
+	top: 40px;
+}
+
+.up_button {
+	background: #542437;
+	border: 1px solid #C02942;
+	transition: 0.5s all;
+	width: 90px;
+	text-align: center;
+}
+
+.up_button:hover {
+	background: #C02942;
+}
+
+#img_twitter, #img_fb, #img_linkedin, #img_mail {
+	opacity: 0.8;
+}
+
+#img_twitter:hover, #img_fb:hover, #img_linkedin:hover, #img_mail:hover {
+	opacity: 1;
+}
